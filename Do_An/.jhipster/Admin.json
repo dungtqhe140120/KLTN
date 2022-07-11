@@ -1,0 +1,18 @@
+{
+  "changelogDate": "20220711140701",
+  "dto": "mapstruct",
+  "entityTableName": "jhi_admin",
+  "fields": [
+    {
+      "fieldName": "profile_id",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required", "unique"]
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Admin",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

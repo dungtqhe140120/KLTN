@@ -1,0 +1,26 @@
+{
+  "changelogDate": "20220711141509",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "personalTrainer_id",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "trainee_id",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "TraineePT",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

@@ -1,0 +1,17 @@
+{
+  "changelogDate": "20220711140101",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "profile_id",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Trainee",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

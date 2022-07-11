@@ -1,0 +1,27 @@
+{
+  "changelogDate": "20220711140828",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "user_id",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "expired_date",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": []
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Card",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
