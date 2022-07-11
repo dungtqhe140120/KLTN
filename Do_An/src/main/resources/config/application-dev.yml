@@ -32,7 +32,7 @@ spring:
       indent-output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:oracle:thin:@192.168.1.242:1521:orcl
+    url: jdbc:oracle:thin:@101.99.6.31:15211:orcl
     username: dungtq_doan
     password: Dungtrieu123
     hikari:
